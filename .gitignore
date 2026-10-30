@@ -1,0 +1,16 @@
+# Environnement virtuel Python
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Fichiers JSON
+*.json
+
+# Profil Chrome
+chrome_profile/
+
+# Variables d'environnement
+.env
