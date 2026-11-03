@@ -38,7 +38,7 @@ Le calcul du pourcentage de ressemblance et les fonctions de nettoyage associée
 
 Dans `linkedin_results.json`, chaque entreprise contient `linkedin`, une liste de profils avec `link`, `name` et `resemblance` (pourcentage), ainsi que `linkedinStatus` (`TROUVE` ou `NON TROUVE`). Un profil avec 0 % de ressemblance est exclu de la liste et son lien n'est pas affiché. Les nouveaux résultats de la recherche lancée par « Lancer » sont enregistrés uniquement dans MongoDB.
 
-Les fichiers `config.json`, `linkedin_results.json` et le profil Chrome sont chargés depuis le dossier de l'application, même si elle est lancée depuis un autre répertoire.
+La configuration persistante est lue depuis `configuration/config.json`. Si ce fichier est absent, l'application utilise ses valeurs par défaut; le dossier est créé automatiquement lors de la première sauvegarde. Le fichier `linkedin_results.json` et le profil Chrome restent dans le dossier de l'application, même si elle est lancée depuis un autre répertoire.
 
 ---
 
