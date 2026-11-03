@@ -54,7 +54,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import (
     TimeoutException, NoSuchElementException, WebDriverException
 )
-from matching import (
+from calcul.matching import (
     calculate_precision_resemblance,
     clean_company_name,
     clean_linkedin_title,

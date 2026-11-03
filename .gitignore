@@ -8,6 +8,7 @@ __pycache__/
 
 # Fichiers JSON
 *.json
+fichiers_json/
 
 # Profil Chrome
 chrome_profile/
